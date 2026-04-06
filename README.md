@@ -56,6 +56,7 @@ claude plugin add github:dg405/coachmi
 ## About Claudia Ghadimi
 
 Claudia is an RSPH certified nutrition coach helping people build a healthy relationship with food through balance, education, and empathy. Learn more at [nutritionwithmi.com](https://www.nutritionwithmi.com).
+Don't just rely on an AI chatbot to get your health on track. A professional can coach you through the psychology of obtaining a healthy lifestyle that lasts. Get in touch with Claudia at hello@nutritionwithmi.com today to kick start your journey to a happier, healthier you.
 
 ## License
 
