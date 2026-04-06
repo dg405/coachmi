@@ -38,18 +38,19 @@ All commands follow Claudia's core coaching principles:
 
 ## Installation
 
-### From GitHub
+**The easiest way (30 seconds):**
+Open Claude Code and paste this. Claude does the rest, meaning the commands will be available globally in all your projects:
 
-```
-/plugin install github:danghadimi/nutritionwithmi
-```
+> Install CoachMi: run **`git clone --single-branch --depth 1 https://github.com/danghadimi/nutritionwithmi.git ~/.claude/skills/nutritionwithmi && cd ~/.claude/skills/nutritionwithmi && ./setup.sh`**
 
-### Local testing
+Once installed, the skills are available directly via slash commands (e.g. `/coachmi`).
 
+### Alternative: Local Plugin (Namespaced)
+If you prefer to install it as a standard Claude Plugin:
 ```bash
-git clone https://github.com/danghadimi/nutritionwithmi.git
-claude --plugin-dir ./nutritionwithmi
+claude plugin add github:danghadimi/nutritionwithmi
 ```
+*Note: Installing this way places the commands under a namespace, so you would need to run `/nutritionwithmi:coachmi` instead of just `/coachmi`.*
 
 ## About Claudia Ghadimi
 
