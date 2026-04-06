@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "coachmi",
+  "description": "AI nutrition coaching plugin inspired by Claudia Ghadimi — balanced eating, recipe discovery, and wellness guidance",
+  "owner": {
+    "name": "Claudia Ghadimi",
+    "url": "https://www.nutritionwithmi.com"
+  },
+  "plugins": [
+    {
+      "name": "coachmi",
+      "description": "AI nutrition coaching plugin with /coachmi, /menuexplorer, /trenddebunker, /pantrytoplate, and /nearby commands",
+      "author": {
+        "name": "Claudia Ghadimi",
+        "url": "https://www.nutritionwithmi.com"
+      },
+      "source": ".",
+      "category": "productivity",
+      "homepage": "https://www.nutritionwithmi.com"
+    }
+  ]
+}
