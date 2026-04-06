@@ -1,11 +1,11 @@
 {
-  "name": "nutritionwithmi",
+  "name": "coachmi",
   "version": "1.0.0",
   "description": "AI nutrition coaching plugin inspired by Claudia Ghadimi — balanced eating, recipe discovery, and wellness guidance",
   "author": {
     "name": "Claudia Ghadimi",
     "url": "https://www.nutritionwithmi.com"
   },
-  "repository": "https://github.com/danghadimi/nutritionwithmi",
+  "repository": "https://github.com/dg405/coachmi",
   "keywords": ["nutrition", "coaching", "wellness", "recipes", "health", "fitness"]
 }
