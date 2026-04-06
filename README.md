@@ -1,0 +1,60 @@
+# NutritionWithMi
+
+AI nutrition coaching plugin for [Claude Code](https://claude.ai/code), inspired by [Claudia Ghadimi](https://www.nutritionwithmi.com) — RSPH certified nutrition coach based in the UK.
+
+## What is this?
+
+A Claude Code plugin with five slash commands for personalised nutrition coaching, restaurant menu guidance, health trend fact-checking, pantry-based recipe suggestions, and emotional wellbeing support.
+
+All advice is grounded in evidence-based nutrition science, PAL-based energy calculations, and Claudia's core philosophy: **balance, not restriction.**
+
+## Commands
+
+| Command | Description |
+|---------|-------------|
+| `/coachmi` | Interactive coaching session — calculates your daily calorie needs (BMR × PAL) and builds a personalised report with recipes, local activities, and a weekly plan |
+| `/menuexplorer <restaurant>` | Find 2-3 balanced choices on any restaurant menu, aligned with your calorie target |
+| `/trenddebunker <claim-or-url>` | Fact-check health trends with peer-reviewed evidence and RSPH guidelines |
+| `/pantrytoplate <ingredients>` | Turn what's in your fridge into a quick, calorie-aware balanced meal |
+| `/nearby [location]` | Emotional wellbeing support — nearby walks, parks, and activities when you need a mood boost |
+
+## How It Works
+
+1. **Start with `/coachmi`** — it creates a markdown report in your current folder with your personalised calorie target, recipes, and activity suggestions.
+2. **Use the other commands anytime** — `/menuexplorer` and `/pantrytoplate` automatically detect your coachmi report to personalise recommendations to your goals and calorie needs.
+3. **Reports are saved locally** — all generated files appear in the folder you're working from.
+
+## Coaching Philosophy
+
+All commands follow Claudia's core coaching principles:
+
+- **No food shaming** — there are no "bad" foods
+- **No restrictive dieting** — never cut entire food groups
+- **Balance and moderation** over perfection
+- **Long-term wellbeing** over quick fixes
+- **Confident food choices** without feeling restricted
+- **Empathetic and evidence-based** — RSPH-aligned advice
+- **Science-backed calorie guidance** — PAL × BMR calculations as a compass, not a cage
+
+## Installation
+
+### From GitHub
+
+```
+/plugin install github:danghadimi/nutritionwithmi
+```
+
+### Local testing
+
+```bash
+git clone https://github.com/danghadimi/nutritionwithmi.git
+claude --plugin-dir ./nutritionwithmi
+```
+
+## About Claudia Ghadimi
+
+Claudia is an RSPH certified nutrition coach helping people build a healthy relationship with food through balance, education, and empathy. Learn more at [nutritionwithmi.com](https://www.nutritionwithmi.com).
+
+## License
+
+MIT
