@@ -2,7 +2,6 @@
 name: menuexplorer
 description: Find balanced menu choices at a restaurant. Searches for the restaurant menu online, then recommends 2-3 options aligned with the user's nutritional goals and calorie target.
 argument-hint: <restaurant-name>
-disable-model-invocation: true
 allowed-tools: [Read, Glob, Grep, WebSearch, WebFetch, AskUserQuestion]
 ---
 

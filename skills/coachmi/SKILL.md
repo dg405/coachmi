@@ -1,7 +1,6 @@
 ---
 name: coachmi
 description: Run a personalised nutrition coaching session. Gathers health and fitness information, calculates daily calorie needs using PAL and BMR, then produces a tailored wellness report with recipes and local activity suggestions.
-disable-model-invocation: true
 allowed-tools: [Read, Write, Glob, Grep, WebSearch, WebFetch, AskUserQuestion, TodoWrite]
 ---
 

@@ -2,7 +2,6 @@
 name: trenddebunker
 description: Evaluate a health or nutrition trend claim with evidence. Researches the scientific consensus, checks RSPH and NHS guidelines, and gently separates fact from myth while pivoting the user toward sustainable habits.
 argument-hint: <health-trend-or-url>
-disable-model-invocation: true
 allowed-tools: [Read, WebSearch, WebFetch, AskUserQuestion]
 ---
 

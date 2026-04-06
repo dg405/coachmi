@@ -2,7 +2,6 @@
 name: pantrytoplate
 description: Turn whatever ingredients the user has at home into a quick, balanced meal. Finds a recipe using their exact ingredients, provides clear steps, and reduces the friction to cooking at home.
 argument-hint: <ingredients>
-disable-model-invocation: true
 allowed-tools: [Read, Glob, Grep, WebSearch, WebFetch, AskUserQuestion]
 ---
 

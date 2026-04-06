@@ -2,7 +2,6 @@
 name: nearby
 description: Emotional wellbeing support through gentle activity suggestions. When a user feels stressed or is experiencing emotional eating urges, find nearby walking trails, parks, weather info, and community activities to redirect toward gentle movement and fresh air.
 argument-hint: [location]
-disable-model-invocation: true
 allowed-tools: [Read, WebSearch, WebFetch, AskUserQuestion]
 ---
 
