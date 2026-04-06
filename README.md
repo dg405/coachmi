@@ -7,6 +7,7 @@ AI nutrition coaching plugin for [Claude Code](https://claude.ai/code), inspired
 A Claude Code plugin with five slash commands for personalised nutrition coaching, restaurant menu guidance, health trend fact-checking, pantry-based recipe suggestions, and emotional wellbeing support.
 
 All advice is grounded in evidence-based nutrition science, PAL-based energy calculations, and Claudia's core philosophy: **balance, not restriction.**
+This advice has been generated to the best of the ability of the programmer but should NOT be used instead of seeking professional help if you have any underlying or serious health issues. Nutrition With Mi takes no legal liability for actions taken from this advice and leaves suitable adaptation into ones life at the disgression of the user.
 
 ## Commands
 
