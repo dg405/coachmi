@@ -41,7 +41,7 @@ All commands follow Claudia's core coaching principles:
 **The easiest way (30 seconds):**
 Open Claude Code and paste this. Claude does the rest, meaning the commands will be available globally in all your projects:
 
-> Install CoachMi: run **`git clone --single-branch --depth 1 https://github.com/dg405/coachmi.git ~/.claude/skills/coachmi && cd ~/.claude/skills/coachmi && ./setup.sh`**
+> Install CoachMi: run **`git clone --single-branch --depth 1 https://github.com/dg405/coachmi.git ~/.claude/skills/coachmi-plugin && bash ~/.claude/skills/coachmi-plugin/setup.sh`**
 
 Once installed, the skills are available directly via slash commands (e.g. `/coachmi`).
 
